@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Inayat Sayyed",
   initials: "SI",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
+  url: "www.linkedin.com/in/sayyedinayat",
+  location: "Mumbai",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things which really help people. Very active on Twitter.",
+    "Software Engineer turned Entrepreneur. I love building things which really help people.",
   summary:
-    "I'm software engineer who is more into building and scaling SaaS businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai].",
-  avatarUrl: "",
+    "I'm software engineer who is more into building and scaling SaaS businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
+  avatarUrl: "www.linkedin.com/in/sayyedinayat",
   skills: [
     "React",
     "Next.js",
@@ -36,33 +36,27 @@ export const DATA = {
   ],
   contact: {
     email: "sayyedinayat92@gmail.com",
-    tel: "+123456789",
+    tel: "+91-8767061300",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Inayat27",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "www.linkedin.com/in/sayyedinayat",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/inayat____92",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
@@ -77,40 +71,40 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Worldline Global Services",
+      href: "www.worldline.com",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
+      location: "Mumbai",
+      title: "FullStack developer",
+      logoUrl: "/Worldline2.jpg",
       start: "Aug 2022",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Making exiting process,fast,efficient.",
     },
   ],
   education: [
     {
       school: "AIKTC-Kalsekar Technical Campus",
-      href: "https://buildspace.so",
+      href: "www.linkedin.com/in/sayyedinayat",
       degree: "Bachelor's of Computer engineering",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "www.linkedin.com/in/sayyedinayat",
       start: "2018",
       end: "2022",
     },
     {
       school: "Chembur Karnataka Jr. College",
-      href: "https://uwaterloo.ca",
+      href: "www.linkedin.com/in/sayyedinayat",
       degree: "Higher Secondary Certificate (HSC)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "www.linkedin.com/in/sayyedinayat",
       start: "2015",
       end: "2017",
     },
     {
       school: "Veer Savarkar English High School",
-      href: "https://uwaterloo.ca",
+      href: "www.linkedin.com/in/sayyedinayat",
       degree: "Secondary School Certificate (SSC)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "www.linkedin.com/in/sayyedinayat",
       start: "2005",
       end: "2015",
     },
