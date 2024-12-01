@@ -8,7 +8,7 @@ export const DATA = {
   location: "Mumbai",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things which really help people.",
+    " From coding dreams to creating realities - I'm passionate about building impactful solutions that make life better for everyone.",
   summary:
     "I'm software engineer who is more into building and scaling SaaS businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
   avatarUrl: "/IMG_20231226_000257_337-transformed.jpeg",

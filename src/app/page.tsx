@@ -22,7 +22,7 @@ export default function Page() {
             <div className="flex-col flex flex-1">
               <SparklesText text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`} className="mb-3 text-2xl font-bold tracking-tighter md:text-4xl sm:text-5xl xl:text-6xl/none" />
               <BlurFadeText
-                className="max-w-[700px] md:text-lg"
+                className="max-w-[700px] md:text-lg my-2"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
@@ -41,7 +41,7 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-xm text-muted-foreground dark:prose-invert">
+          <Markdown className="prose max-w-full text-pretty font-sans text-base text-muted-foreground dark:prose-invert">
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -99,7 +99,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-2 text-sm">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
               <RainbowButton key={skill} >{skill} </RainbowButton>
