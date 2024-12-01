@@ -20,7 +20,7 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1">
-              <SparklesText text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`} className="mb-3 text-2xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none" />
+              <SparklesText text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`} className="mb-3 text-2xl font-bold tracking-tighter md:text-4xl sm:text-5xl xl:text-6xl/none" />
               <BlurFadeText
                 className="max-w-[700px] md:text-lg"
                 delay={BLUR_FADE_DELAY}
@@ -28,7 +28,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-36 border">
+              <Avatar className="max-[600px]:size-20 size-32 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
