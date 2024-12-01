@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things which really help people.",
   summary:
     "I'm software engineer who is more into building and scaling SaaS businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
-  avatarUrl: "www.linkedin.com/in/sayyedinayat",
+  avatarUrl: "/IMG_20231226_000257_337-transformed.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -88,7 +88,7 @@ export const DATA = {
       school: "AIKTC-Kalsekar Technical Campus",
       href: "www.linkedin.com/in/sayyedinayat",
       degree: "Bachelor's of Computer engineering",
-      logoUrl: "www.linkedin.com/in/sayyedinayat",
+      logoUrl: "/AIKTC.jpg",
       start: "2018",
       end: "2022",
     },
@@ -96,7 +96,7 @@ export const DATA = {
       school: "Chembur Karnataka Jr. College",
       href: "www.linkedin.com/in/sayyedinayat",
       degree: "Higher Secondary Certificate (HSC)",
-      logoUrl: "www.linkedin.com/in/sayyedinayat",
+      logoUrl: "/College.png",
       start: "2015",
       end: "2017",
     },
