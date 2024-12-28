@@ -22,7 +22,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/Inayat27/Portfolio.git
    ```
 
 2. Move to the cloned directory
@@ -43,9 +43,4 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
    pnpm dev
    ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
->>>>>>> 3736cdc (inital commit)
+5. Open the [Config file](./src/data/resume.tsx) and make changes.

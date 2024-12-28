@@ -1,14 +1,12 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import SparklesText from "@/components/ui/sparkles-text";
+import GradualSpacing from "@/components/ui/gradual-spacing";
 import {RainbowButton} from "@/components/ui/rainbow-button";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -17,12 +15,12 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-6">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
+        <div className="mx-auto w-full max-w-2xl space-y-6">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1">
-              <SparklesText text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`} className="mb-3 text-2xl font-bold tracking-tighter md:text-4xl sm:text-5xl xl:text-6xl/none" />
+              <GradualSpacing text="Hello,I'm Inayat" className="font-display text-4xl font-bold -tracking-widest  text-black dark:text-white md:text-6xl md:leading-[5rem]" />
               <BlurFadeText
-                className="max-w-[700px] md:text-lg my-2"
+                className="max-w-[700px] md:text-xl my-2"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />

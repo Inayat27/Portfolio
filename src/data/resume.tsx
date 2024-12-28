@@ -4,13 +4,11 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Inayat Sayyed",
   initials: "SI",
-  url: "www.linkedin.com/in/sayyedinayat",
   location: "Mumbai",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     " From coding dreams to creating realities - I'm passionate about building impactful solutions that make life better for everyone.",
   summary:
-    "I'm software engineer who is more into building and scaling SaaS businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
+    "I'm software engineer who is more into building and scaling saas businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
   avatarUrl: "/IMG_20231226_000257_337-transformed.jpeg",
   skills: [
     "React",
@@ -72,10 +70,10 @@ export const DATA = {
   work: [
     {
       company: "Worldline Global Services",
-      href: "www.worldline.com",
+      href: "https://worldline.com/en-in/home",
       badges: [],
       location: "Mumbai",
-      title: "FullStack developer",
+      title: "FullStack Developer",
       logoUrl: "/Worldline2.jpg",
       start: "Aug 2022",
       end: "Present",
@@ -86,7 +84,7 @@ export const DATA = {
   education: [
     {
       school: "AIKTC-Kalsekar Technical Campus",
-      href: "www.linkedin.com/in/sayyedinayat",
+      href: "https://aiktc.ac.in/",
       degree: "Bachelor's of Computer engineering",
       logoUrl: "/AIKTC.jpg",
       start: "2018",
@@ -102,9 +100,9 @@ export const DATA = {
     },
     {
       school: "Veer Savarkar English High School",
-      href: "www.linkedin.com/in/sayyedinayat",
+      href: "#",
       degree: "Secondary School Certificate (SSC)",
-      logoUrl: "www.linkedin.com/in/sayyedinayat",
+      logoUrl: "#",
       start: "2005",
       end: "2015",
     },
