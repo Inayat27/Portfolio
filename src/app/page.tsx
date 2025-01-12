@@ -29,7 +29,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="max-[600px]:size-24 size-32 border-4">
+              <Avatar className="max-[600px]:size-24 size-32 border-4 dark:border-gray-400 border-gray-300">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
