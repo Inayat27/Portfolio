@@ -136,6 +136,32 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
+    {
+      title: "Vercel Clone",
+      href: "#",
+      dates: "Nov 2024 - Dec 2024",
+      active: true,
+      description:
+        "Vercel Clone using people can able to host there projects same like Vercle and in return it gives deployed link for the hosted projects.",
+      technologies: [
+        "ReactJS",
+        "Typescript",
+        "MongoDB",
+        "Nodejs",
+        "TailwindCSS",
+        "Redis"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Inayat27/FullStackProjects/Vercel-clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
   ],
   hackathons: [
     {
