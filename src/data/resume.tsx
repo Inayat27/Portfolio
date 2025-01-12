@@ -10,7 +10,7 @@ export const DATA = {
   description:
     " From coding dreams to creating realities - I'm passionate about building impactful solutions that make life better for everyone.",
   summary:
-    "I'm software engineer who is more into building and scaling SaaS businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
+    "I'm software engineer who is more into building and scaling saas businesses and helping People.In the past, [  I pursued a degree in computer science ](/#education), [Currently Working as full time employee at big Fintech company in Mumbai](/#work).",
   avatarUrl: "/IMG_20231226_000257_337-transformed.jpeg",
   skills: [
     "React",
@@ -32,7 +32,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "sayyedinayat92@gmail.com",
