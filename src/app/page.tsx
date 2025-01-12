@@ -20,7 +20,7 @@ export default function Page() {
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1">
               <TextAnimate animation="blurInUp" by="character" className="mb-3 text-2xl font-bold tracking-tighter md:text-4xl sm:text-5xl xl:text-6xl/none">
-              Hi ,I'm Inayat !
+              Hi ,I&apos;m Inayat !
               </TextAnimate>
               <BlurFadeText
                 className="max-w-[700px] md:text-lg my-2"
