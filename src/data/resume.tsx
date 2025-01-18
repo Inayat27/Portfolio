@@ -133,7 +133,7 @@ export const DATA = {
         },
       ],
       image: "/ChatApplication.jpg",
-      // video:"",
+      video:"",
     },
     {
       title: "Vercel Clone",
@@ -158,7 +158,7 @@ export const DATA = {
         },
       ],
       image: "/VercelClone.png",
-      // video:  "",
+      video:  "",
     },
   ],
   hackathons: [
