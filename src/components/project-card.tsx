@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -61,7 +61,7 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <Image
+          <img
             src={image}
             alt={title}
             width={500}

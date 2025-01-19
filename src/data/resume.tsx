@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Inayat Sayyed",
   initials: "SI",
-  url: "www.linkedin.com/in/sayyedinayat",
+  url: "https://www.linkedin.com/in/sayyedinayat",
   location: "Mumbai",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/mumbai",
   description:
     " From coding dreams to creating realities - I'm passionate about building impactful solutions that make life better for everyone.",
   summary:
@@ -35,7 +35,7 @@ export const DATA = {
   ],
   contact: {
     email: "sayyedinayat92@gmail.com",
-    tel: "+91-8767061300",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
@@ -62,8 +62,7 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -71,7 +70,7 @@ export const DATA = {
   work: [
     {
       company: "Worldline Global Services",
-      href: "www.worldline.com",
+      href: "https://worldline.com/",
       badges: [],
       location: "Mumbai",
       title: "FullStack developer",
@@ -85,7 +84,7 @@ export const DATA = {
   education: [
     {
       school: "AIKTC-Kalsekar Technical Campus",
-      href: "www.linkedin.com/in/sayyedinayat",
+      href: "#",
       degree: "Bachelor's of Computer engineering",
       logoUrl: "/AIKTC.jpg",
       start: "2018",
@@ -93,7 +92,7 @@ export const DATA = {
     },
     {
       school: "Chembur Karnataka Jr. College",
-      href: "www.linkedin.com/in/sayyedinayat",
+      href: "#",
       degree: "Higher Secondary Certificate (HSC)",
       logoUrl: "/College.png",
       start: "2015",
@@ -101,9 +100,9 @@ export const DATA = {
     },
     {
       school: "Veer Savarkar English High School",
-      href: "www.linkedin.com/in/sayyedinayat",
+      href: "#",
       degree: "Secondary School Certificate (SSC)",
-      logoUrl: "www.linkedin.com/in/sayyedinayat",
+      logoUrl: "#",
       start: "2005",
       end: "2015",
     },
@@ -132,7 +131,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/ChatApplication.jpg",
+      image:"/ChatApplication.jpg",
       video:"",
     },
     {
